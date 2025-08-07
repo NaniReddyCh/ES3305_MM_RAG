@@ -23,6 +23,7 @@ from langchain.retrievers.multi_vector import MultiVectorRetriever
 from openai import OpenAI as OpenAI_vLLM
 from langchain_community.llms.vllm import VLLMOpenAI
 from langchain.embeddings import HuggingFaceEmbeddings
+
 embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-large-en')
 
 # Extract elements from PDF
